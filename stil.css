@@ -1,0 +1,275 @@
+li
+{
+    font-size: 30px;
+    font-family:fantasy;
+    color:crimson;
+}
+
+
+textarea
+{
+    
+    
+    width: 100%;
+    max-height: 100%;
+    
+}
+
+.dodavanjeStavka
+{
+  margin: 10px;
+}
+
+.brisanje 
+{
+    margin:10px;
+}
+
+.naslovListe
+{
+    font-size:35px;
+    font-style: italic;
+    color:crimson;
+    font-family: fantasy;
+}
+
+.be
+{
+    margin-bottom:30px;
+}
+
+.elB
+{
+   
+    height:60px;
+    width:75px;
+    margin: 10px;
+   
+}
+
+.elB:hover
+{
+    width: 80px;
+    height: 70px;
+    opacity: 1;
+}
+
+.elKont
+{
+    margin:10px;
+    border:2px solid white;
+    width: 80%;
+    height: 120px;
+    font-size: 15px;
+
+    flex-shrink: 1;
+}
+
+
+
+.glDugmici
+{
+    display :flex;
+    flex-direction: column;
+    justify-content: start;
+   
+    
+    
+}
+
+.Kolekcija
+{
+    display: flex;
+    justify-content: stretch;
+   min-height: 100% !important;
+   height: 100%;
+   width: 100%;
+    align-self: stretch;
+    margin: 0%;
+    padding: 0%;
+    
+ 
+    
+    
+}
+
+.editovanje
+{
+    display: flex;
+   
+    justify-content:space-between;
+    
+    width: 70%;
+    background-image: url("img4.jpg");
+    overflow-y: scroll;
+    background-repeat: repeat-y;
+    background-size: contain;
+    height:100%;
+    background-size: 100% 100%;
+    margin:0%;
+    color:black;
+    
+
+    
+    margin:0%;
+    padding-left: 10%;
+
+    flex-shrink: 1;
+    
+   
+}
+
+.forma
+{
+    width: 30%;
+    
+   min-height: 100%;
+    align-self: stretch;
+    background-image: url("img6.jpg");
+
+    overflow-y:scroll;
+    color:white;
+    margin: 0%;
+    padding: 0%;
+    background-color: transparent;
+
+    flex-shrink: 1;
+}
+
+body
+{
+    height: 100%;
+    border:1 px solid black;
+    display: flex;
+    align-content: center;
+    justify-content: stretch;
+    background-color: transparent;
+    margin: 0%;
+    padding: 0%;
+    
+   
+   
+    
+}
+html
+{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.kanta
+{
+   height:30px;
+    width: 20px;
+    background-color: transparent;
+}
+
+.kanta:hover
+{
+    
+    width: 30px;
+   
+}
+
+
+.slikaK
+{
+    max-width: 100%;
+    max-height: 100%;
+    
+    
+  
+}
+.slikaB
+{
+    max-width: 100%;
+    max-height: 100%;
+    
+
+}
+
+.slikaB:hover
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.prikazBeleski
+{
+    display: grid;
+
+    grid-template-columns: 33% 33% 33%;
+}
+
+.prikazListi
+{
+    display: grid;
+
+    grid-template-columns: 33% 33% 33%;
+}
+
+.dugmeE
+{
+    height: 60px;
+    width:120px;
+    margin:15px;
+    margin-right:50px;
+    background-color:white;
+    color:black;
+    border:2px solid black;
+
+   
+
+    flex-shrink: 1;
+    
+    
+}
+.dugmeE:hover
+{
+    background-color:rgb(117, 117, 216);
+}
+
+
+.polje
+{
+    flex-shrink: 1;
+    
+    height: 100%;
+}
+
+*
+{
+    font-family:cursive;
+    flex-shrink: 1;
+
+    
+}
+
+::-webkit-scrollbar
+{
+    background:transparent;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background:rgb(126, 109, 109);
+
+}
+
+@media only screen and (max-width: 750px) {
+    .prikazListi
+    {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .prikazBeleski
+    {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+  }
+
